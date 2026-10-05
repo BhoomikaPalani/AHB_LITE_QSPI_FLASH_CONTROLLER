@@ -1,6 +1,6 @@
 # AHB-Lite QSPI XiP Flash Controller Verification
 
-SystemVerilog and UVM-based verification environment for an AHB-Lite QSPI Execute-in-Place (XiP) Flash Controller with a direct-mapped cache.
+UVM-based verification environment for an AHB-Lite QSPI Execute-in-Place (XiP) Flash Controller with a direct-mapped cache.
 
 ## Overview
 
