@@ -42,3 +42,24 @@ ahb_vip/
 |-- ahb_master_pkg.sv
 |-- ahb_types_pkg.sv
 `-- ahb_assertions.sv
+
+## QSPI VIP Development
+
+A custom UVM-based Reactive QSPI Slave VIP was developed to model the external QSPI flash connected to the DUT.
+
+Since the DUT initiates QSPI transactions, the QSPI VIP operates as a reactive slave.
+
+### QSPI VIP Components
+
+```text
+qspi_vip/
+|
+|-- qspi_if.sv
+|-- qspi_seq_item.sv
+|-- qspi_slave_config.sv
+|-- qspi_slave_driver.sv
+|-- qspi_slave_monitor.sv
+|-- qspi_slave_sequencer.sv
+|-- qspi_slave_agent.sv
+|-- qspi_memory_model.sv
+`-- qspi_pkg.sv
