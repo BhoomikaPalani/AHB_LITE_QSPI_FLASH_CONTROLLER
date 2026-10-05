@@ -4,7 +4,8 @@ SystemVerilog and UVM-based verification environment for an AHB-Lite QSPI Execut
 
 Overview
 
-                              <img width="457" height="318" alt="overblock" src="https://github.com/user-attachments/assets/864367c7-6a7d-406d-a4dd-33d45e2fbe40" />
+<img width="457" height="318" alt="overblock" src="https://github.com/user-attachments/assets/61fb56bd-1841-4e72-a18d-6f9d8d7e4c52" />
+
 
 
 The DUT is an AHB-Lite based QSPI XiP Flash Controller that provides access to external QSPI flash memory through an AHB-Lite interface.
