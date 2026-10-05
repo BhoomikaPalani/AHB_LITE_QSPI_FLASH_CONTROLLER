@@ -103,7 +103,7 @@ AHB_LITE_QSPI_FLASH_CONTROLLER/
 
 * Developed a custom AHB-Lite Master VIP
 + Developed a reactive QSPI Slave VIP
-Developed a QSPI flash memory model
++ Developed a QSPI flash memory model
 Integrated both VIPs with the DUT
 Developed UVM-based functional checking
 Verified cache hit and cache miss behavior
