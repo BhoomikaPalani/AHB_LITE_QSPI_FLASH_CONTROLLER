@@ -64,4 +64,40 @@ qspi_vip/
 |-- qspi_memory_model.sv
 `-- qspi_pkg.sv
 ```
+## Project Structure
+```text
+AHB_LITE_QSPI_FLASH_CONTROLLER/
+|
+|-- ahb_vip/                  # AHB-Lite Master VIP
+|
+|-- qspi_vip/                 # Reactive QSPI Slave VIP
+|
+|-- rtl/                      # Design Under Verification
+|   |-- EF_QSPI_XIP_CTRL_AHBL.v
+|   |-- EF_QSPI_XIP_CTRL.v
+|   `-- DMC.v
+|
+|-- tb/                       # UVM Testbench
+|   |-- tb_top.sv
+|   |-- tb_pkg.sv
+|   |-- env.sv
+|   |-- env_config.sv
+|   `-- scoreboard.sv
+|
+|-- test/                     # UVM Tests and Sequences
+|   |-- base_test.sv
+|   |-- controller_seq_lib.sv
+|   |-- test_lib.sv
+|   `-- test_pkg.sv
+|
+|-- sim/                      # Simulation
+|   |-- Makefile
+|   |-- filelist.f
+|   `-- run.do
+|
+|-- .gitignore
+`-- README.md
+```
+# Author
 
+## Bhoomika Palani
