@@ -101,15 +101,15 @@ AHB_LITE_QSPI_FLASH_CONTROLLER/
 
 ## Key Verification Contributions
 
-* Developed a custom AHB-Lite Master VIP
++ Developed a custom AHB-Lite Master VIP
 + Developed a reactive QSPI Slave VIP
 + Developed a QSPI flash memory model
-Integrated both VIPs with the DUT
-Developed UVM-based functional checking
-Verified cache hit and cache miss behavior
-Verified pipelined and back-to-back transactions
-Verified address and cache-line boundary conditions
-Performed end-to-end data verification
++ Integrated both VIPs with the DUT
++ Developed UVM-based functional checking
++ Verified cache hit and cache miss behavior
++ Verified pipelined and back-to-back transactions
++ Verified address and cache-line boundary conditions
++ Performed end-to-end data verification
 
 ## Author
 
