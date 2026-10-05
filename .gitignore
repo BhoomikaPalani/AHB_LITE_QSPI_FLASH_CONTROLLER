@@ -1,0 +1,28 @@
+# Questa / ModelSim generated files
+*.wlf
+*.ucdb
+transcript
+work/
+*_lib/
+modelsim.ini
+
+# Simulation logs
+*.log
+
+# Waveform files
+*.vcd
+*.fsdb
+*.shm
+*.trn
+
+# Temporary editor files
+*.swp
+*.swo
+*.swn
+
+# Backup/temp files
+*.bak
+*.tmp
+
+# OS files
+.DS_Store
