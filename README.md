@@ -98,6 +98,6 @@ AHB_LITE_QSPI_FLASH_CONTROLLER/
 |-- .gitignore
 `-- README.md
 ```
-# Author
+## Author
 
-## Bhoomika Palani
+Bhoomika Palani
