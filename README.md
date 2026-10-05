@@ -4,7 +4,7 @@ UVM-based verification environment for an AHB-Lite QSPI Execute-in-Place (XiP) F
 
 ## Overview
 
-<img width="457" height="318" alt="overblock" src="https://github.com/user-attachments/assets/61fb56bd-1841-4e72-a18d-6f9d8d7e4c52" />
+          <img width="457" height="318" alt="overblock" src="https://github.com/user-attachments/assets/61fb56bd-1841-4e72-a18d-6f9d8d7e4c52" />
 
 The DUT is an AHB-Lite based QSPI XiP Flash Controller that provides access to external QSPI flash memory through an AHB-Lite interface.
 
@@ -14,7 +14,7 @@ The main focus of this project is the development of custom AHB-Lite and QSPI UV
 
 ## Verification Architecture
 
-<img width="688" height="515" alt="tb" src="https://github.com/user-attachments/assets/87fe84dd-93b5-4941-8271-667c8eb20bae" />
+          <img width="688" height="515" alt="tb" src="https://github.com/user-attachments/assets/87fe84dd-93b5-4941-8271-667c8eb20bae" />
 
 The AHB-Lite Master VIP generates transactions to the DUT.
 
