@@ -1,10 +1,10 @@
-AHB-Lite QSPI XiP Flash Controller Verification
+## AHB-Lite QSPI XiP Flash Controller Verification
 
 SystemVerilog and UVM-based verification environment for an AHB-Lite QSPI Execute-in-Place (XiP) Flash Controller with a direct-mapped cache.
 
-Overview
+## Overview
 
-<img width="457" height="318" alt="overblock" src="https://github.com/user-attachments/assets/61fb56bd-1841-4e72-a18d-6f9d8d7e4c52" />
+            <img width="457" height="318" alt="overblock" src="https://github.com/user-attachments/assets/61fb56bd-1841-4e72-a18d-6f9d8d7e4c52" />
 
 
 
@@ -14,7 +14,7 @@ The controller includes a 512-byte direct-mapped cache, organized as 16 cache li
 
 The main focus of this project is the development of custom AHB-Lite and QSPI UVM VIPs and functional verification of the DUT.
 
-Verification Architecture
+## Verification Architecture
                    <img width="688" height="515" alt="tb" src="https://github.com/user-attachments/assets/87fe84dd-93b5-4941-8271-667c8eb20bae" />
 
 
@@ -24,11 +24,12 @@ The DUT generates QSPI transactions to access the external flash. The QSPI React
 
 The monitored transactions are provided to the scoreboard for functional checking.
 
-AHB-Lite VIP Development
+## AHB-Lite VIP Development
 
 A custom UVM-based AHB-Lite Master VIP was developed to generate and monitor AHB-Lite transactions.
 
-AHB-Lite VIP Components
+### AHB-Lite VIP Components
+```text
 ahb_vip/
 |
 |-- ahb_lite_if.sv
@@ -42,7 +43,8 @@ ahb_vip/
 |-- ahb_master_pkg.sv
 |-- ahb_types_pkg.sv
 `-- ahb_assertions.sv
-Features
+
+## Features
 AHB-Lite transaction generation
 Read transaction support
 Pipelined transaction support
